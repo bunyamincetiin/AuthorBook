@@ -1,8 +1,4 @@
 ﻿using KitapYazar.DAL.Contexts;
-using KitapYazar.Entity.Entity;
-using System;
-using Microsoft.EntityFrameworkCore;
-using System.Linq;
 
 namespace KitapYazar.Veri
 {

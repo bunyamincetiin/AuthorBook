@@ -1,8 +1,6 @@
-using KitapYazar.API;
 using KitapYazar.DAL.Abstracts;
 using KitapYazar.DAL.Concretes;
 using KitapYazar.DAL.Contexts;
-using KitapYazar.Entity.Entity;
 using KitapYazar.SERVICE.AuthorBookManager;
 using KitapYazar.SERVICE.AuthorManager;
 using KitapYazar.SERVICE.BookManager;

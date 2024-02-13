@@ -1,9 +1,4 @@
 ﻿using KitapYazar.Entity.Entity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace KitapYazar.SERVICE.AuthorBookManager
 {
@@ -11,5 +6,6 @@ namespace KitapYazar.SERVICE.AuthorBookManager
 	{
 		Task<List<AuthorBook>> GetVirtualizedAuthorAsync(int startIndex, int count);
 		public Task<List<AuthorBook>> GetAuthorBooksByBookIdsAsync(List<Guid> bookIds);
+		public  Task<List<BookDto>> GetBookDtosAsync(int pageNumber, int pageSize);
 	}
 }
